@@ -1,0 +1,494 @@
+li {
+    list-style-type: none;
+}
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 img {
+    width: 350px;
+}
+
+
+#portfolio .btn-view {
+    /*margin: 0 10px; original*/
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 20px;
+    color: #02A2CD;
+    background-color: #ffffff;
+    border: 2px solid #02A2CD;
+    font-size: 12px;
+}
+
+/*buttons*/
+.btn-null {
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #627d85;
+    border: 2px solid #627d85;
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: initial;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 4px;
+}
+
+#portfolio .btn-view:hover {
+    /*margin: 0 10px; original*/
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #02A2CD;
+    border: 2px solid #02A2CD;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.navbar {
+    margin: 0px;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+p.first{padding-bottom:105px;}
+
+img.leftimg{float:left;padding-right:20px;}
+.top{
+    margin-top:10px;
+}
+
+.subtitle{
+    text-align:center;
+    color:slategrey;
+    font-style:italic;
+    font-size: small;
+    padding-bottom:20px;
+}
+
+.a {
+    color: white;
+}
+
+.btn-success {
+    margin-bottom: 1em;
+}
+
+
+.section-break {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0px;
+}
+.section-break h1 {
+    color: #ffffff;
+    font-size: 2em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+/* ==========================================================================
+   Homepage
+   ========================================================================== */
+.case-pad {
+    padding: 3px;
+}
+
+.case-info {
+    background-color: #404040;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+}
+
+.case-study {
+    position: relative;
+    opacity: .80;
+    transition: .50s ease;
+    background-color: #FFF;
+}
+.case-study:hover {
+    opacity: 1;
+    transition: .3s ease;
+    background-color: transparent;
+}
+
+
+
+/* ==========================================================================
+   Homepage end
+   ========================================================================== */
+
+/* ==========================================================================
+   About Me
+   ========================================================================== */
+#aboutme {
+    /*padding-top: 60px;*/
+}
+
+#aboutmebody {
+    background-attachment: fixed;
+}
+
+#aboutmebody h1,
+#aboutmebody h2,
+#aboutmebody h3,
+#aboutmebody h4,
+#aboutmebody h5,
+#aboutmebody h6,
+#aboutmebody p {
+    color: #515151;
+    /*font-weight: lighter;*/
+    line-height: 1.75em;
+}
+
+#aboutmeheader {
+    background-color: #232323;
+}
+#aboutmeheader h1{
+    font-size: 3.75em;
+    line-height: 1.25em;
+}
+
+#aboutmeheader #headerleft {
+    margin-top: 15%;
+}
+#aboutmeinfo{
+    opacity: 0;
+}
+
+#aboutmebody .timeframe .time-title {
+    text-align: right;
+    /*font-family: Consolas, Courier, monospace;*/
+    /*border-right: 3px solid #45ADA8;*/
+    /*height: auto;*/
+    /*margin-top: 2%;*/
+}
+
+#aboutmebody .timeframe .time-icon  {
+    float: left;
+    width: 100px;
+}
+
+#aboutmebody .timeframe .time-description {
+    margin-top: 1%;
+}
+
+#aboutmepage .highlight {
+    border: 2px solid #efeeee;
+    border-radius: 1%;
+}
+
+#timeline {
+    width: 75%;
+    margin: auto;
+}
+
+/*#aboutmebody a:hover{*/
+    /*color: #02A2CD;*/
+    /*/!*font-weight: bold;*!/*/
+    /*/!*font-size: 24px;*!/*/
+    /*text-decoration: underline;*/
+    /*text-decoration-color: #739a79;*/
+/*}*/
+
+#aboutmepic img {
+    width: 100%;
+}
+
+
+
+
+
+/* ==========================================================================
+   End About Me
+   ========================================================================== */
+
+/* ==========================================================================
+   Portfolio Page
+   ========================================================================== */
+
+#sms-title {
+    background-image: url(../assets/securemysocial/opto-title-bg3.png);
+    background-position: center;
+}
+
+
+#showcase h5 {
+    /*margin-top: 7px;*/
+}
+
+.portfolio-section-title {
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+
+    /*width: auto;*/
+    /*height: auto;*/
+    /*text-align: center;*/
+}
+
+/*.portfolio-section-title p {*/
+    /*font-weight: 100;*/
+/*}*/
+
+.portfolio-section h1 {
+    color: #fff;
+    font-size: 2.75em;
+}
+.portfolio-section h3 {
+    /*color: #fff;*/
+    font-size: 1.25em;
+    font-weight: 100;
+}
+.portfolio-section .h5 {
+    line-height: 27px;
+}
+
+/*.portfolio-section p {*/
+    /*font-size: 1em;*/
+/*}*/
+
+.portfolio-section .quote p {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+    line-height: 2em;
+    color: #717171;
+}
+
+.portfolio-section .quote span {
+    font-family: Consolas, Courier, monospace;
+    font-size: 100px;
+}
+
+
+#takeyourpick-final iframe {
+    width: 640px ;
+    height: 360px ;
+}
+
+
+/* ==========================================================================
+   End Portfolio Page
+   ========================================================================== */
+
+/* ==========================================================================
+   Fonts & Backgrounds
+   ========================================================================== */
+
+.font-book {
+    font-family: 'Merriweather', serif;
+}
+
+
+.font-white{
+    color: #ffffff;
+}
+.font-red {
+    color: #B95A5A;;
+}
+.font-grey-dark {
+    color: #515151;
+}
+.font-blue-grey {
+    color: #547980;
+}
+.font-green {
+    color: #02A2CD;
+}
+.font-DD-blue {
+    color: #8dafc3;
+}
+.font-DD-green {
+    color: #94bf99;
+}
+.font-DD-yellow {
+    color: #c5bf89;
+}
+.font-DD-red {
+    color: #bc8c89;
+}
+
+
+.bg-white {
+    background-color: #ffffff;
+}
+.bg-grey {
+    background-color: #f9f9f9;
+}
+.bg-grey-light {
+    background-color: #f9f9f9;
+}
+.bg-grey-dark {
+    background-color: #232323;
+}
+.bg-grey-med {
+    background-color: #404040;
+}
+.bg-fade-red {
+    background-color: #F6E3E3;
+}
+.bg-fade-green {
+    background-color: #f8fef8;
+}
+.bg-home {
+    background-image: url(../images/bg-green.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*padding-bottom: 100px;*/
+}
+.bg-thailand {
+    background-image: url(../images/bg-thailand.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.bg-thailand-50 {
+    background: transparent url('../images/bg-thailand-50.jpg') bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-lines-yellow {
+    background-image: url(../images/bg-yellow-lines.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-yellow-bubbles {
+    background-image: url(../images/bg-yellow-bubbles.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-lines-yellow2 {
+    background-image: url(../images/bg-yellow-lines2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-lines-red {
+    background-image: url(../images/bg-red-lines.png);
+    background-position: left;
+    background-size: cover;
+}
+.bg-triangle-blue {
+    background-image: url(../images/bluelayover.png);
+    background-position: left;
+    background-size: cover;
+}
+.bg-triangle-green {
+    background-image: url(../images/bg-triangle-green.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.bg-aboutme {
+    background-image: url(../images/aboutmelayover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-timeline-dot {
+    background-image: url(../images/timelinedot.png);
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+.bg-green {
+    background-image: url(../images/bg-green.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.bg-jumbo-green {
+    background-color: #547980;
+}
+.bg-mareana {
+    background-image: url(../assets/mareana/mareanahome2.png);
+    background-position: center;
+    background-size: contain;
+    /*background-attachment: fixed;*/
+}
+/* ==========================================================================
+   End Fonts & Backgrounds
+   ========================================================================== */
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media (max-width: 768px) {
+    #aboutme .timeframe .time-icon  {
+        float: right;
+    }
+
+    #takeyourpick-final iframe {
+        width: 58%;
+        height: 58%;
+    }
+
+    #safetymap {
+        width: 100%;
+    }
+
+    #sms-title h1 {
+        font-size: 2em;
+    }
+
+    #sms-title {
+        background-image: url(../assets/securemysocial/opto-title-bg3.png);
+        background-position: center;
+    }
+
+
+}
+@media (max-width: 991px) {
+    #aboutme .timeframe .time-title {
+        text-align: left;
+        border-left: 3px solid #45ADA8;
+        border-right: none;
+    }
+    #timeline {
+        width: 100%;
+    }
+    .text-md-center {
+        text-align: center;
+    }
+}
+@media (min-width: 1200px) {
+    #aboutme .timeframe .time-title {
+        margin-top: 2%;
+    }
+}
+
+/* ==========================================================================
+   End Media Queries
+   ========================================================================== */
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+.linkedin-icon {
+    width: 30px;
+}
+
+/* ==========================================================================
+   END FOOTER
+   ========================================================================== */

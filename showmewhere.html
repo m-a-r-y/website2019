@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta content="A mobile web application built in 24 hours to find a doctor for your needs. " name="description"/>
+    <meta content="Mary Le, mobile web application, Code-a-thon, BetterDoctor UberX API" name="keywords"/>
+
+    <title>Mary Le - Show Me Where</title>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="css/prettyPhoto.css" />
+    <link rel="import" href="showme.html">
+
+    <script src="lightbox/js/jquery-1.11.0.min.js"></script>
+    <script src="lightbox/js/lightbox.min.js"></script>
+    <link href="lightbox/css/lightbox.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+<body data-spy="scroll" data-target="#my-nav" id="cbp-so-scroller">
+
+<!-- Navigation Bar -->
+<div class="navbar navbar-fixed-top minified">
+    <div class="container">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- <a class="navbar-brand" href="index.html">Mary Le</a> -->
+        </div>
+
+        <nav id="my-nav" class="navbar-collapse collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About Me</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="assets/mary.le.resume.pdf" target="_blank">Resume</a></li>
+                <!-- <li><a href="index.html#contact">Contact</a></li> -->
+            </ul>
+        </nav><!--/.navbar-collapse -->
+
+    </div>
+</div>
+<!-- End of Navigation Bar -->
+
+
+
+<!-- About Section -->
+<section id="showcase" class="cbp-so-section cbp-so-init">
+    <div class="container cbp-so-side-top">
+
+        <!--Sidebar-->
+        <div class="one_of_3 hidden-xs">
+            <div class="sidebar">
+                <a href="NPUbanners.html"><img class="smallThumb" src="assets/NPU/blue-logo-circle-img.png" alt="NPU Banners"/></a>
+                <a href="MAdashboard.html"><img class="smallThumb" src="assets/mobileaction/logo_white.png" alt="Mobile Action Dashboard"/></a>
+                <a href="MAemail.html"><img class="smallThumb" src="assets/mobileaction/logo_bg.png" alt="Mobile Action Projects"/></a>
+                <a href="achievers.html"><img class="smallThumb" src="assets/achievers/corp/logo.png" alt="Achievers"/></a>
+                <a href="ace.html"><img class="smallThumb" src="assets/achievers/ace/logo.png" alt="ACE"/></a>
+                <a href="takeyourpick.html"><img class="smallThumb" src="assets/achievers/takeyourpick/logo.png" alt="Take Your Pick"/></a>
+                <a href="sms.html"><img class="smallThumb" src="assets/securemysocial/smslogo.png" alt="SecureMySocial"/></a>
+                <a href="showmewhere.html"><img class="smallThumb" src="assets/showmewhere/smw1.png" alt="Show Me Where"/></a>
+                <a href="lockerletters.html"><img class="smallThumb" src="assets/lockerletters/bird.png" alt="Locker Letters"/></a>
+                <!-- <a href="restapp.html"><img class="smallThumb" src="assets/restapp/rest-app.png" alt="Restaurant App"/></a> -->
+                <a href="#"><img class="smallThumb" src="assets/comingsoon.png" alt="Coming Soon!"/></a>
+            </div>
+        </div>
+
+        <!--End of Side Bar-->
+
+        <div class="two_of_3 ">
+            <h1>Show Me Where</h1>
+            <div class="noteCard">
+                <h3>Objective</h3>
+                <p> This project was created with several teammates for a 2014 Health 2.0 Code-a-thon. Within 24 hours, we had to utilize the BetterDoctor API
+                    to design and build a model application that best demonstrates the power of BetterDoctor - a database of best doctors and their information
+                    for your specific needs.
+                </p>
+
+                <h3>The Story</h3>
+                <p> Show Me Where was created with Node.js and Ionic, an HTML5 hybrid mobile app framework.
+                    This application combines BetterDoctor API and UberX API to recommend a doctor based on the user's injury, and displays the time and cost
+                    that will take to get to your doctor via Uber.
+                </p>
+                <a href="lightbox/img/smw3.png" data-lightbox="color" data-title="Third Screen">
+                    <img class="square_b" src="assets/showmewhere/smw3.png">
+                </a>
+                <h3 class="subtitle hidden-xs">Displays a map and a scroll down list of specialty doctors.</h3>
+
+                <h3>Challenges</h3>
+                <p> One of the biggest challenge for this project was the constricted time frame and the collaboration of many people working on the project at once.
+                    With 6 people on the team, we had to agree upon a single product idea and quickly assign tasks and fairly delegate responsibilities. Our approach
+                    to this was to break into pairs; one pair worked on the backend and another worked on the frontend while the last pair jumped between the two to
+                    assist with extra help.
+                </p>
+                <p>
+                    My partner and I were assigned with front-end development and creating pages for the app. Even between two people, there were minor conflicts on
+                    how to structure the code and how the design should look. Since time was of the essence, we decided to split the assignment and work independently
+                    on individual pages. Even though my partner and I worked separately on our own pages, I made sure to communicate to my partner and to everyone of
+                    what I was doing to make sure that our app had a uniformed look.
+                </p>
+
+                <a href="lightbox/img/smw4.png" data-lightbox="color" data-title="Final Screen">
+                    <img class="square_b" src="assets/showmewhere/smw4.png">
+                </a>
+                <!--<h3 class="subtitle hidden-xs">Final Screen (w/ hard coded information)</h3>-->
+
+                <!--<h3 class="visible-lg visible-xs">Final Product</h3>-->
+                <!--<h4 class="visible-lg">Click on the iPhone for a quick demo!</h4>-->
+                <!--<h6 class="visible-lg">In this demo, only the head (fractured skull) and left arm (hand) are working.</h6>-->
+                <!--<div class="square_b visible-lg">-->
+                    <!--<DocHack-app></DocHack-app>-->
+                <!--</div>-->
+
+                <a href="lightbox/img/smw5.png" data-lightbox="color" data-title="Home Screen">
+                    <img class="square_b visible-xs" src="assets/showmewhere/smw5.png">
+                </a>
+
+                <h3>Takeaways</h3>
+                <p> This Code-a-thon was an excellent exercise in collaboration and teamwork while on a tight deadline; effective communication and time management was crucial
+                    throughout the process. I also realized that different projects require different technologies and frameworks so it was a fun challenge to quickly pick up
+                    Ionic and use the framework for the first time just for this web app.
+                </p>
+
+                <h3>Tools Used</h3>
+                <p> • HTML5
+                    • CSS3
+                    • Ionic
+                    • JavaScript
+                    • Angular.js
+                    • Node.js
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- End of About Section -->
+
+
+<!-- Footer -->
+<div class="footer">
+    <div class="container">
+        <p>Mary Le - Web Developer | UI Designer</p>
+    </div>
+</div>
+
+<div class="scrolltotop">
+    <i class="fa fa-chevron-up"></i>
+</div>
+<!-- End of Footer -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+<script type="text/javascript" src="js/jquery.cslider.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.mixitup.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/cbpScroller.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+
+
+</body>
+</html>
