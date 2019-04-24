@@ -18,7 +18,7 @@ Author URI:         http://creativemarket.com/stefusilviu
    General Styles
    ========================================================================== */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   /*font-weight: 100;*/
 
   font-size: 15px;
@@ -46,18 +46,18 @@ h6 {
 .h4,
 .h5,
 .h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.5;
 }
 h1 {
-  font-size: 2.888888888888889em;
+  font-size: 2em;
   text-transform: uppercase;
   /*font-weight: 700;*/
   /*font-weight: 500;*/
   /*text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);*/
 }
-a {
+a .navlinks {
   color: #717171;
   text-decoration: none;
   -webkit-transition: all 0.2s ease-out;
@@ -65,7 +65,7 @@ a {
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-a:hover {
+a .navlinks:hover {
   text-decoration: none;
   color: #3e3e3e;
 }
@@ -263,9 +263,8 @@ a:hover {
 /* end logo */
 
 .navbar .navbar-nav li a:hover {
-  background-color: #fff;
-  outline: none;
-  color: #02A2CD;
+  color: #515151;
+  font-weight: bold;
 }
 
 .navbar .navbar-nav li a:focus {
@@ -299,17 +298,13 @@ a:hover {
   color: #515151;
 }
 
-.navbar .navbar-nav .active a:hover {
-  color: #02A2CD;
-}
-
 .navbar .navbar-brand {
   margin: 0 0 0 15px;
   padding: 0;
 }
 .navbar .navbar-toggle {
-  margin-top: 3px;
-  margin-bottom: 3px;
+  /*margin-top: 3px;*/
+  /*margin-bottom: 3px;*/
   border: 1px solid #bebebe;
   border-radius: 4px;
   outline: none;
@@ -334,12 +329,13 @@ a:hover {
 }
 .navbar .navbar-collapse {
   /*background-color: rgba(0, 0, 0, 0.96); original*/
-  background-color: #303030;
+  background-color: #02A2CD;
   text-align: center;
-  -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.5);
-  margin-top: 15px;
+  border-radius: 4px;
+  /*-webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.5);*/
+  /*-moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.5);*/
+  /*box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.5);*/
+  /*margin-top: 15px;*/
 }
 .minified {
   top: 0;
@@ -370,9 +366,7 @@ a:hover {
   /*-moz-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);*/
   /*box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);*/
 }
-.jumbotron .container {
-  text-align: center;
-}
+
 .jumbotron h1 {
   /*color: #fff;*/
   /*font-size: 2.888888888888889em; original*/
@@ -389,8 +383,8 @@ a:hover {
   /*color: #ffffff;*/
   /*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);*/
   /*font-weight: 500;*/
-  margin-bottom: 40px;
-  opacity: 0;
+  /*margin-bottom: 40px;*/
+  /*opacity: 0;*/
 }
 .jumbotron p .btn {
   color: #fff;
@@ -733,7 +727,8 @@ a:hover {
 }
 
 .border-bottom {
-  border-bottom: 2px solid rgba(0, 0, 0, .1);
+  /*border-bottom: 2px solid rgba(0, 0, 0, .1);*/
+  border-bottom: solid 2px #1BA2CD;
 }
 #portfolio .portfolio-desc-r {
   text-align: left;
@@ -2378,6 +2373,13 @@ opacity: 0.0;
    Media Queries
    ========================================================================== */
 /* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .navbar .navbar-nav .active a {
+    background-color: #1CA2D0;
+    color: #fff;
+  }
+}
+
 @media (min-width: 768px) {
   .navbar .navbar-nav {
     float: right;
@@ -2399,6 +2401,8 @@ opacity: 0.0;
     box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
     margin-top: 0;
   }
+
+
   #about .round-outline {
     height: 100px;
     width: 100px;
@@ -2446,7 +2450,7 @@ opacity: 0.0;
     display: inline-block;
     padding: 8px 16px;
     color: #bbbbbb;
-    font-weight: bold;
+    /*font-weight: bold;*/
   }
   .navbar .navbar-collapse {
     background-color: rgba(255, 255, 255, 0);
@@ -2471,7 +2475,7 @@ opacity: 0.0;
   #header {
     /* height: auto; Ver A*/
     /*height: 100%;*/
-    height: 55%;
+    /*height: 55%;*/
   }
   #testimonials .da-slider {
     height: 280px;

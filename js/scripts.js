@@ -20,13 +20,19 @@ jQuery(document).ready(function() {
 	$(window).load(function () {
 		$('#aboutmeinfo').addClass('slide-up-fade-in');
 
+
+		$('#header img').animate({opacity: '1', 'padding-top': '0'}, 600, 'easeInOutCubic');
+
 		//jQuery('#header-photo').delay( 100 ).animate({opacity: '1', 'margin-right' : '100px'}, 1000, 'easeInOutCubic', function() {
-			jQuery('#header h1').animate({opacity: '1', 'padding-top': '0'}, 600, 'easeInOutCubic', function() {
+			jQuery('#header img').animate({opacity: '1', 'padding-top': '0'}, 600, 'easeInOutCubic', function() {
 				jQuery('#header p').animate({opacity: '1'}, 100, 'easeInOutCubic', function() {
 					jQuery('#portfolio').animate({opacity: '1', top: '0px'}, 500, 'easeInOutCubic');
 				});
 			});
 		//});
+
+
+
 
 		AOS.init({
 			disable: 'mobile',

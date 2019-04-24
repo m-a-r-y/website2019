@@ -258,6 +258,12 @@
     font-weight: normal;
 }
 
+/*LIST STYLE */
+.inline-block {
+    display: inline-block;
+    padding: 0 15px;
+}
+
 .hideme {
     display: none;
 }

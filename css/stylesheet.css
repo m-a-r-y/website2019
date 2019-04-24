@@ -111,29 +111,46 @@ img.leftimg{float:left;padding-right:20px;}
 /* ==========================================================================
    Homepage
    ========================================================================== */
-.case-pad {
-    padding: 3px;
+.logo-img {
+    max-height: 160px;
+    max-width: 100%;
 }
 
-.case-info {
-    background-color: #404040;
-    color: #fff;
-    padding: 10px;
+.case-container {
+    padding: 15px 0px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    position: relative;
+    opacity: 1;
+    transition: .50s ease;
+}
+
+.contain-out-vert {
+    position: relative;
+}
+.contain-in-vert {
     position: absolute;
-    bottom: 3px;
-    right: 3px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.case-img {
+    border-radius: 5px;
+
 }
 
 .case-study {
     position: relative;
-    opacity: .80;
+    opacity: 1;
     transition: .50s ease;
     background-color: #FFF;
 }
-.case-study:hover {
+.case-container:hover {
     opacity: 1;
     transition: .3s ease;
-    background-color: transparent;
+    background-color: #E7F5F9;
 }
 
 
@@ -231,6 +248,10 @@ img.leftimg{float:left;padding-right:20px;}
    Portfolio Page
    ========================================================================== */
 
+#header {
+    background-color: #ffffff;
+}
+
 #sms-title {
     background-image: url(../assets/securemysocial/opto-title-bg3.png);
     background-position: center;
@@ -303,22 +324,24 @@ img.leftimg{float:left;padding-right:20px;}
     font-family: 'Merriweather', serif;
 }
 
+.font-primary {
+    color: #1CA2D0;
+}
 
 .font-white{
     color: #ffffff;
 }
-.font-red {
-    color: #B95A5A;;
-}
 .font-grey-dark {
     color: #515151;
 }
+.font-red {
+    color: #B95A5A;;
+}
+
 .font-blue-grey {
     color: #547980;
 }
-.font-green {
-    color: #02A2CD;
-}
+
 .font-DD-blue {
     color: #8dafc3;
 }

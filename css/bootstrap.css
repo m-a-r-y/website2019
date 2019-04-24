@@ -190,7 +190,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #333333;
+  color: #515151;
   background-color: #ffffff;
 }
 input,
@@ -208,13 +208,13 @@ textarea {
   background-image: none;
 }
 a {
-  color: #428bca;
+  color: #515151;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2a6496;
-  text-decoration: underline;
+  color: #515151;
+  /*text-decoration: underline;*/
 }
 a:focus {
   outline: thin dotted #333;
@@ -396,7 +396,7 @@ h6,
 .h6 {
   /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.3;
 }
 h1 small,
 h2 small,
@@ -647,6 +647,7 @@ pre code {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  max-width: 90%;
 }
 .container:before,
 .container:after {
@@ -804,7 +805,8 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    max-width: 750px;
+    max-width: 90%;
+    /*max-width: 750px;*/
   }
   .col-sm-1,
   .col-sm-2,
@@ -957,7 +959,8 @@ pre code {
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 970px;
+    max-width: 90%;
+    /*max-width: 970px;*/
   }
   .col-md-1,
   .col-md-2,
@@ -1119,7 +1122,8 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 80%;
+    /*max-width: 1170px;*/
   }
   .col-lg-1,
   .col-lg-2,
@@ -3159,7 +3163,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  /*background-color: #eeeeee;*/
 }
 .nav > li.disabled > a {
   color: #999999;
