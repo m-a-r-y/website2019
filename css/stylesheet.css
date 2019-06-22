@@ -116,16 +116,6 @@ img.leftimg{float:left;padding-right:20px;}
     max-width: 100%;
 }
 
-.case-container {
-    padding: 15px 0px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    position: relative;
-    opacity: 1;
-    transition: .50s ease;
-}
 
 .contain-out-vert {
     position: relative;
@@ -147,13 +137,32 @@ img.leftimg{float:left;padding-right:20px;}
     transition: .50s ease;
     background-color: #FFF;
 }
-.case-container:hover {
+
+.case-container {
+    padding: 15px 0px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    position: relative;
+    opacity: 1;
+    transition: .50s ease;
+}
+.case-container-blue:hover {
+     opacity: 1;
+     transition: .3s ease;
+     background-color: #E7F5F9;
+}
+.case-container-green:hover {
     opacity: 1;
     transition: .3s ease;
-    background-color: #E7F5F9;
+    background-color: #E7F9F0;
 }
-
-
+.case-container-yellow:hover {
+    opacity: 1;
+    transition: .3s ease;
+    background-color: #F8F9E7;
+}
 
 /* ==========================================================================
    Homepage end
@@ -235,10 +244,6 @@ img.leftimg{float:left;padding-right:20px;}
 #aboutmepic img {
     width: 100%;
 }
-
-
-
-
 
 /* ==========================================================================
    End About Me
@@ -326,6 +331,14 @@ img.leftimg{float:left;padding-right:20px;}
 
 .font-primary {
     color: #1CA2D0;
+}
+
+.title-bg {
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-left: 15px;
+    background-color: #515151;
+    color: #FFFFFF;
 }
 
 .font-white{
@@ -452,6 +465,25 @@ img.leftimg{float:left;padding-right:20px;}
 }
 /* ==========================================================================
    End Fonts & Backgrounds
+   ========================================================================== */
+
+/* ==========================================================================
+   Borders
+   ========================================================================== */
+.border-bottom {
+    border-bottom: 2px solid rgba(0, 0, 0, .1);
+}
+.border-bottom-blue {
+    border-bottom: solid 2px #1BA2CD;
+}
+.border-bottom-green {
+     border-bottom: solid 2px #94bf99;
+ }
+.border-bottom-yellow {
+    border-bottom: solid 2px #c5bf89;
+}
+/* ==========================================================================
+   End Borders
    ========================================================================== */
 
 /* ==========================================================================

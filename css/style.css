@@ -726,10 +726,6 @@ a .navlinks:hover {
   font-size: .9em;
 }
 
-.border-bottom {
-  /*border-bottom: 2px solid rgba(0, 0, 0, .1);*/
-  border-bottom: solid 2px #1BA2CD;
-}
 #portfolio .portfolio-desc-r {
   text-align: left;
   padding-left: 50px;

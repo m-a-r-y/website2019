@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="1000px" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-34.9826815%" x2="50%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#9C0D63" offset="0%"></stop>
+            <stop stop-color="#5E083B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1000" height="1000"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="1255" height="1255"></rect>
+        <text id="COMING-SOON" font-family="Montserrat-SemiBold, Montserrat SemiBold" font-size="92" font-weight="500" fill="#FFFFFF">
+            <tspan x="141.286" y="533">COMING SOON</tspan>
+        </text>
+    </g>
+</svg>
