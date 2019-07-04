@@ -132,7 +132,7 @@
     margin: 15px;
 }
 .mar-all-md {
-    padding: 30px;
+    margin: 30px;
 }
 .mar-all-lg {
     margin: 70px;
@@ -257,6 +257,7 @@
 .font-bold-none{
     font-weight: normal;
 }
+
 
 /*LIST STYLE */
 .inline-block {
