@@ -59,7 +59,7 @@
 
 
 <!-- Navigation Bar -->
-<div class="navbar mar-ver-md">
+<div class="navbar mar-top-md">
     <div class="container">
 
         <div class="navbar-header">
@@ -73,12 +73,14 @@
 
         <nav id="my-nav" class="navbar-collapse collapse" role="navigation">
             <ul class="nav navbar-nav">
-                <li><a href="index.html" class="">Work</a></li>
-                <li class="active"><a href="aboutme.html" class="">About</a></li>
-                <li><a href="assets/mary.le.resume.pdf" class="" target="_blank">Resume</a></li>
+                <div class="nav navbar-nav">
+                    <button class="btn" data-filter="all" role="button"><a href="index.html" class="">Work</a></button>
+                    <button class="btn" data-filter="all" role="button"><a href="photos.html" class="">Photography</a></button>
+                    <button class="btn" data-filter="all" role="button"><a href="aboutme.html" class="">About me</a></button>
+                    <button class="btn" data-filter="seattle" role="button"><a href="assets/mary.le.resume.pdf" target="_blank">Resume</a></button>
+                </div>
             </ul>
         </nav><!--/.navbar-collapse -->
-
     </div>
 </div>
 <!-- End of Navigation Bar -->
